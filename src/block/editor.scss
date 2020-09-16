@@ -1,0 +1,23 @@
+/**
+ * #.# Editor Styles
+ *
+ * CSS for just Backend enqueued after style.scss
+ * which makes it higher in priority.
+ *
+*/
+
+.wp-block-wpnet-cover-slider {
+	background-color: var(--wp-admin-theme-color);
+
+	.info {
+		color: #fff;
+		text-align: center;
+		margin: 0;
+		padding: 5px;
+	}
+
+	.wp-block-cover {
+		border: solid 5px var(--wp-admin-theme-color);
+		max-width: 100% !important;
+	}
+}

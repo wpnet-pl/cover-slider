@@ -1,0 +1,23 @@
+/**
+ * #.# Styles
+ *
+ * CSS for both Frontend+Backend.
+ */
+.wp-block-wpnet-block-cover-slider {
+	.wp-block-cover {
+		margin-top: 0 !important;
+		margin-bottom: 0 !important;
+		padding: 0 !important;
+		max-width: 100% !important;
+	}
+	.swiper-slide img {
+		width: 100%;
+		height: auto;
+	}
+
+	&[data-cover-slider-fullheight="true"] {
+		.wp-block-cover {
+			min-height: 100vh;
+		}
+	}
+}
